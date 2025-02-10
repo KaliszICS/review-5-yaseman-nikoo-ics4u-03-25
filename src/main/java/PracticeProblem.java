@@ -119,20 +119,29 @@ public class PracticeProblem {
 		Scanner in = new Scanner(System.in);
 		System.out.print("Input a sentence: ");
 		String sentence = in.nextLine();
-		System.out.print("Input a word: ");
+		System.out.print("Input a word to replace: ");
 		String word = in.nextLine();
 		System.out.print("What word would you like to replace it with: ");
 		String wordReplace = in.nextLine();
-		System
+		System.out.println(sentence.replaceAll(wordReplace, word));
 	}
 
 	public static void q11() {
-		//Write question 5 code here
+		Scanner in = new Scanner(System.in);
+		System.out.print("Input a sentence: ");
+		String sentence = in.nextLine();
+		System.out.println(sentence.toUpperCase().trim());
+		System.out.println(sentence.toLowerCase().trim());
 		
 	}
 
 	public static void q12() {
-		//Write question 5 code here
+		Scanner in = new Scanner(System.in);
+		System.out.print("Input a word: ");
+		String word = in.nextLine();
+		System.out.println(word.substring(0,4));
+		System.out.println(word.substring(word.length()-4,word.length()));
+	
 		
 	}
 	

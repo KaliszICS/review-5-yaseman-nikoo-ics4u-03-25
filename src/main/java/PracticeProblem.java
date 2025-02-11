@@ -123,7 +123,7 @@ public class PracticeProblem {
 		String word = in.nextLine();
 		System.out.print("What word would you like to replace it with: ");
 		String wordReplace = in.nextLine();
-		System.out.println(sentence.replaceAll(wordReplace, word));
+		System.out.println(sentence.replaceAll(word, wordReplace));
 	}
 
 	public static void q11() {
